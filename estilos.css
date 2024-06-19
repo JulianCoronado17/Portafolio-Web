@@ -1,0 +1,19 @@
+h1{
+    color:rgb(243, 6, 65)
+    ;
+}
+
+h2{
+    color:rgb(241, 139, 5);
+}
+
+button{
+    background-color: black;color: white;
+}
+body{
+    text-align: center;
+}
+
+#boton_inicio{
+    text-align: left;
+}
