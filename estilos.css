@@ -12,6 +12,11 @@ button{
 }
 body{
     text-align: center;
+    background-color:rgb(70, 201, 91);
+}
+.list{
+    list-style-position: inside;
+    list-style-type:disclosure-closed;
 }
 
 #boton_inicio{
