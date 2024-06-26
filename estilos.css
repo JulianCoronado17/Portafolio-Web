@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 .container_header{
-    background-color:black;
+    background-color:#1b130c;
     position: fixed;
     width: 100%;
     top: 0;
@@ -58,4 +58,10 @@ html{
     border-radius: 5px;
     cursor: pointer;
     display: none;
+}
+/*diseño section inicio*/
+
+.inicio{
+    background-color: linear-gradient(to top,rgb(28, 20, 13/.8) , rgb(28, 20, 13/1),
+    url
 }
