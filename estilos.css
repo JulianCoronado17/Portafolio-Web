@@ -62,6 +62,58 @@ html{
 /*diseño section inicio*/
 
 .inicio{
-    background-color: linear-gradient(to top,rgb(28, 20, 13/.8) , rgb(28, 20, 13/1),
-    url
+    background:linear-gradient(to top,rgba(28, 20, 13,.8) , rgba(28, 20, 13,1)),
+    url(fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .container_tarjeta{
+    padding: 20px;
+    background-color:#1b130c;
+    max-width:350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 90px;
+}
+
+.inicio .container_tarjeta img{
+    margin-top: 40px;
+    border: 10px solid orangered;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 12%;
+}
+.inicio .container_tarjeta h1{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Righteous';
+
+}
+
+.inicio .container_tarjeta h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.inicio .container_tarjeta .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 10px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .container_tarjeta .redes a:hover{
+    background-color: orangered;
 }
