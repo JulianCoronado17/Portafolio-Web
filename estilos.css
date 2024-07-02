@@ -291,3 +291,77 @@ html{
     font-size: 14px;
 
 }
+
+.skills .skill .pseint{
+    width: 0%;
+    animation: 2s pseint forwards;
+}
+@keyframes pseint{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .python{
+    width: 0%;
+    animation: 2s python forwards;
+}
+@keyframes python{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+   
+.skills .skill .html{
+    width: 0%;
+    animation: 2s html forwards;
+}
+@keyframes html{
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+   
+.skills .skill .css{
+    width: 0%;
+    animation: 2s css forwards;
+}
+@keyframes css{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+   
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+   
+.skills .skill .TE{
+    width: 0%;
+    animation: 2s TE forwards;
+}
+@keyframes TE{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+   
+.skills .skill .disciplina{
+    width: 0%;
+    animation: 2s disciplina forwards;
+}
+@keyframes disciplina{
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+   
+.skills .skill .eficiencia{
+    width: 0%;
+    animation: 2s eficiencia forwards;
+}
+@keyframes eficiencia{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+   
+
+   
