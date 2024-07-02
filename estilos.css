@@ -222,7 +222,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background:linear-gradient(90deg, orangered 30%, rgb(30, 255, 0));
+    background:linear-gradient(90deg, orangered 30%, rgb(30, 255, 0)) ;
     z-index: -1;
     transition: 1s;
     border-radius: 5px;
@@ -360,7 +360,7 @@ html{
 }
 @keyframes eficiencia{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 75%;}                                                       
 }
    
 
